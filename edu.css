@@ -1,0 +1,104 @@
+@font-face {
+	font-family: BAHAMALN;
+	src: url(BAHAMALN.ttf);
+}
+
+@font-face {
+	font-family: A8N;
+	src: url(A8N.ttf);
+}
+
+body{
+	background-image: linear-gradient(to right, rgb(102, 255, 102), rgb(116, 99, 242))
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.container{
+	padding: 20px;
+}
+
+.headers{
+	text-align: center;
+	position: relative;
+	animation: animatebottom 1.3s;
+	color: #e26522;
+	font-family: A8N;
+}
+
+@keyframes animatebottom{
+	from{
+		bottom: -300px;
+		opacity: 0;
+	}
+	to{
+		bottom: 0;
+		opacity: 1;
+	}
+}
+
+.para{
+	font-family: BAHAMALN;
+	color: #86058f;
+	font-size: 20px;
+}
+
+#p1{
+	animation: fadinganimation 3s;
+	border-left: 4px solid #86058f;
+	border-right: 1px solid #86058f;
+	border-top: 1px solid #86058f;
+	border-bottom: 1px solid #86058f;
+}
+
+#p2{
+	animation: fadinganimation 4s;
+	border-right: 4px solid #86058f;
+	border-left: 1px solid #86058f;
+	border-top: 1px solid #86058f;
+	border-bottom: 1px solid #86058f;
+}
+
+#p3{
+	animation: fadinganimation 5s;
+	border-left: 4px solid #86058f;
+	border-right: 1px solid #86058f;
+	border-top: 1px solid #86058f;
+	border-bottom: 1px solid #86058f;
+}
+
+@keyframes fadinganimation{
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.link{
+	text-decoration: none;
+	color: #e9601c;
+}

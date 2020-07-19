@@ -1,0 +1,203 @@
+@font-face {
+  font-family: Comfortaa-VariableFont_wght;
+  src: url(Comfortaa-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-image: linear-gradient(to right, rgb(142,251,215), rgb(187,221,136))
+}
+
+#all{
+	text-align: center;
+	background-color: #f44336;
+	padding: 10px;
+	color: black;
+	border-radius: 5px;
+	font-size: 30px;
+	overflow: hidden;
+	position: sticky;
+}
+
+#header{
+	text-decoration: none;
+	color: white;
+	cursor: context-menu;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  float: left;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#icon{
+	cursor: pointer;
+	font-size: 30px;
+	float: right;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.dropbtn {
+	padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+	background-color: #111;
+	border: none;
+	cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  color: #f1f1f1;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.para{
+	font-family: Comfortaa-VariableFont_wght;
+	font-size: 20px;
+	color: rgb(255, 102, 0);
+}
+
+#p1{
+	text-align: left;
+	border-left: 4px solid #4c4ca4;
+	border-right: 0.5px solid #4c4ca4;
+	border-bottom: 0.5px solid #4c4ca4;
+	border-top: 0.5px solid #4c4ca4;
+	padding: 3px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#p2{
+	text-align: center;
+	border-left: 0.5px solid rgb(133, 255, 92);
+	border-right: 4px solid rgb(133, 255, 92);
+	border-bottom: 0.5px solid rgb(133, 255, 92);
+	border-top: 0.5px solid rgb(133, 255, 92);
+	padding: 3px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.x{
+	text-decoration: none;
+	animation: fadinganimation 3s;
+}
+
+@keyframes fadinganimation{
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.headertwo{
+	color: rgb(244,124,252);
+	border-bottom: 1px solid rgb(244,124,252);
+}
+
+@media screen and (max-width: 600px){
+	#disclaimer{font-size: 20px;}
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 2.5px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.article{
+	background-color: white;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+.content{
+	margin: 5px;
+	padding: 5px;
+}

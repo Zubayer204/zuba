@@ -1,0 +1,38 @@
+body{
+	background-image: linear-gradient(to right, rgb(117,255,117), rgb(206,171,44));
+}
+
+.img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	height: 350px;
+	width: 250px;
+	border-radius: 5px;
+	padding: 2px;
+	object-fit: cover;
+	animation:animatezoom 1s;
+}
+@keyframes animatezoom{from{transform:scale(0)}; to{transform:scale(1)}}
+
+#z{
+	font-size: 14px;
+	color: rgb(174, 167, 167);
+	text-align: center;
+}
+
+.para{
+	font-size: 20px;
+	color: #797977;
+}
+
+.article{
+	background-color: white;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+.content{
+	margin: 5px;
+	padding: 5px;
+}
