@@ -13,6 +13,7 @@
 	font-weight: bold;
 	font-size: 50px;
 	text-shadow: 5px 5px 3px rgb(155, 155, 151);
+	animation: animatezoom 1s;
 }
 
 .lastname{
@@ -23,6 +24,8 @@
 	font-family: Teko-Light;
 	font-size: 40px;
 	color: #757543;
+	animation: rightgo 1s;
+	position: relative;
 }
 
 .namework{
@@ -76,3 +79,5 @@ img{
 	margin-right: 10px;
 }
 
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+@keyframes rightgo{from{left: -300px;opacity: 0} to{left: 0px;opacity: 1}}
