@@ -5,7 +5,85 @@
 
 @font-face{
 	font-family: Teko-Light;
+	src: url(T@font-face {
+  font-family: Oswald-Light;
+  src: url(Oswald-Light.ttf);
+}
+
+@font-face{
+	font-family: Teko-Light;
 	src: url(Teko-Light.ttf);
+}
+
+.name{
+	font-family: Oswald-Light;
+	font-weight: bold;
+	font-size: 50px;
+	text-shadow: 5px 5px 3px rgb(155, 155, 151);
+	animation: animatezoom 1s;
+}
+
+.lastname{
+	color: #10645d;
+}
+
+.work{
+	font-family: Teko-Light;
+	font-size: 40px;
+	color: #757543;
+	animation: rightgo 1s;
+	position: relative;
+}
+
+.namework{
+	float: right;
+	display: block;
+}
+
+img{
+	/* float: left; */
+	width: 180px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px){
+	image{
+		float: left;
+		width: 80px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	.name{
+		font-size: 28px;
+	}
+	.work{
+		font-size: 28px;
+	}
+}
+.header{
+	padding-bottom: 50px; 
+}
+
+.first{
+	background-color: #f2f23a;
+	padding-bottom: 5px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin-top: 10px;
+}
+
+.second{
+	background-color: red;
+	padding: 300px;
+	margin-bottom: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-right: 10px;
+}
+
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+@keyframes rightgo{from{left: -300px;opacity: 0} to{left: 0px;opacity: 1}}eko-Light.ttf);
 }
 
 .name{
