@@ -11,6 +11,8 @@
 .name{
 	font-family: Oswald-Light;
 	font-weight: bold;
+	font-size: 50px;
+	text-shadow: 5px 5px 3px rgb(155, 155, 151);
 }
 
 .lastname{
@@ -19,7 +21,7 @@
 
 .work{
 	font-family: Teko-Light;
-	font-size: 35px;
+	font-size: 40px;
 	color: #757543;
 }
 
@@ -43,10 +45,13 @@ img{
 		border-radius: 50%;
 	}
 	.name{
-		font-size: 25px;
+		font-size: 35px;
 	}
 	.work{
-		font-size: 28px;
+		font-size: 33px;
+	}
+	.first{
+		padding: 10px 25px 10px 15px;
 	}
 }
 .header{
@@ -59,6 +64,7 @@ img{
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 	margin-top: 10px;
+	padding: 10px 600px 10px 10px;
 }
 
 .second{
