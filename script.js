@@ -41,5 +41,3 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
-	document.getElementById("mySidenav").style.width = "0";
-}
