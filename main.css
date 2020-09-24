@@ -16,7 +16,6 @@ body {
 	border-radius: 5px;
 	font-size: 30px;
 	overflow: hidden;
-	position: sticky;
 }
 
 #header{
@@ -70,13 +69,6 @@ body {
 	font-size: 30px;
 	float: right;
 }
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 
 .dropbtn {
 	padding: 8px 8px 8px 32px;
@@ -200,4 +192,51 @@ body {
 .content{
 	margin: 5px;
 	padding: 5px;
+}
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  width: 250px;
+  border-radius: 5px;
+  padding: 2px;
+  object-fit: cover;
+  animation:animatezoom 1s;
+}
+@keyframes animatezoom{from{transform:scale(0)}; to{transform:scale(1)}}
+
+#z{
+  font-size: 14px;
+  color: rgb(174, 167, 167);
+  text-align: center;
+}
+
+#more{
+  display: none;
+}
+
+.cop{
+      font-size: 18px;
+}
+
+#myBtn{
+  background-color: #616161;
+  color: #fff;
+  user-select: none;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+#myBtn:hover{
+  background-color: #fff;
+  color: #616161;
 }
