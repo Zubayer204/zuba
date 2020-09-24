@@ -1,20 +1,3 @@
-window.onscroll = function() {nav()};
-
-// Get the navbar
-var navbar = document.getElementById("all");
-
-// Get the offset position of the navbar
-var sticky = navbar.OffsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function nav() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function dropdown() {
@@ -40,5 +23,23 @@ function openNav() {
 }
 
 function closeNav() {
+	document.getElementById("mySidenav").style.width = "0";
+}
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
 	document.getElementById("mySidenav").style.width = "0";
 }
