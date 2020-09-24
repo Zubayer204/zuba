@@ -1,0 +1,76 @@
+body{
+  background-image: linear-gradient(to right, rgb(206, 156, 257), rgb(0, 136, 255))
+}
+
+#topnav {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+#topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.container{
+	padding: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 91.5%;
+}
+
+.sticky + .container {
+  padding-top: 60px;
+}
+
+.article{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.content{
+  margin: 5px;
+  padding: 5px;
+}
+
+.para{
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.company{
+  font-size: 1.15em;
+  color: rgb(87,92,244);
+}
+
+.list{
+  font-size: 1.1em;
+  padding-bottom: 10px;
+}
+
+.scrr{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.foot{text-align: center;padding-top: 10px; color: #979795;}
