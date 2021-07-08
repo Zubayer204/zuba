@@ -1,53 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemap scheme="2.2">
-  <title>Zubayer</title>
-  <version>1.0</version>
-  <link>https://zubayer.slickplan.com/w0ozihtbf8</link>
-  <pubDate>Thu, 08 Jul 2021 09:48:58 -0400</pubDate>
-  <logo type="image">143376</logo>
-  <settings>
-    <url>https://zubayer.netlify.app</url>
-  </settings>
-  <workflow>
-    <status color="#59bc6d" alias="complete" readonly="1">Complete</status>
-    <status color="#f5a623" alias="draft" readonly="0">Draft</status>
-    <status color="#e2e6f0" alias="~" readonly="0">Unassigned</status>
-  </workflow>
-  <section id="svgmainsection">
-    <options>
-      <template>horizontal</template>
-      <color_scheme>default</color_scheme>
-      <default_color>#fdfdfe</default_color>
-      <lines_color>#dadadb</lines_color>
-      <text_color>#404040</text_color>
-      <id>svgmainsection</id>
-    </options>
-    <cells>
-      <cell id="svgjdfpwd6mi1wri96r">
-        <order>4000</order>
-        <level>1</level>
-        <text>softwares.html</text>
-      </cell>
-      <cell id="svgty255mfuoqemvz20">
-        <order>3000</order>
-        <level>1</level>
-        <text>edu.html</text>
-      </cell>
-      <cell id="svgj8y9pdpckngqvpjb">
-        <order>2000</order>
-        <level>1</level>
-        <text>about.html</text>
-      </cell>
-      <cell id="svgpcct3swdvzj8hmkk">
-        <order>1000</order>
-        <level>1</level>
-        <text>index.html</text>
-      </cell>
-      <cell id="svgyns8oyyrz8alt31y">
-        <order>1000</order>
-        <level>home</level>
-        <text>Home page</text>
-      </cell>
-    </cells>
-  </section>
-</sitemap>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://zubayer.netlify.app/</loc>
+  <lastmod>2021-07-08T13:27:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://zubayer.netlify.app/about.html</loc>
+  <lastmod>2021-07-08T13:27:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zubayer.netlify.app/softwares.html</loc>
+  <lastmod>2021-07-08T13:27:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zubayer.netlify.app/edu.html</loc>
+  <lastmod>2021-07-08T13:27:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zubayer.netlify.app/index.html</loc>
+  <lastmod>2021-07-08T13:27:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
